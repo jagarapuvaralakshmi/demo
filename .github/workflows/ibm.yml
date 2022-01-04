@@ -20,9 +20,9 @@ env:
   IBM_CLOUD_REGION: us-south
   ICR_NAMESPACE: ${{ secrets.ICR_NAMESPACE }}
   REGISTRY_HOSTNAME: us.icr.io
-  IMAGE_NAME: demodev-cicd/docker-cicd-new
+  IMAGE_NAME: docker-cicd-new
   IKS_CLUSTER: c763mn2f0qibaomagbvg
-  DEPLOYMENT_NAME: demodev-cicd/docker-cicd-new
+  DEPLOYMENT_NAME: docker-cicd-new
   PORT: 9090
 
 jobs:
