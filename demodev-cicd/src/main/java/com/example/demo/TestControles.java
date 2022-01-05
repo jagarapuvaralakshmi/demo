@@ -10,7 +10,7 @@ public class TestControles {
 	
 	public String welcome(@PathVariable String message) {
 		
-		/*return "welcome to IBM india ";*/
+		/*return "welcome to IBM india Kubernates ";*/
 		return message;
 	}
 }
